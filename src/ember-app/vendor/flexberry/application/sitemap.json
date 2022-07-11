@@ -1,0 +1,58 @@
+﻿{
+  "applicationCaption": "I s s7",
+  "applicationTitle": "I s s7",
+  "items": [
+    {
+      "link": null,
+      "menuName": "i-s-s7",
+      "caption": "ISS7",
+      "title": "ISS7",
+      "children": [
+        {
+          "link": "i-i-s-i-s-s7-рабочее-место-l",
+          "menuName": null,
+          "caption": "Рабочее место",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-i-s-s7-пользователь-l",
+          "menuName": null,
+          "caption": "Пользователь",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-i-s-s7-тип-l",
+          "menuName": null,
+          "caption": "Тип",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочники",
+      "caption": "Справочники",
+      "title": "Справочники",
+      "children": [
+        {
+          "link": "i-i-s-i-s-s7-тип-l",
+          "menuName": null,
+          "caption": "ТипL",
+          "title": "Тип",
+          "children": null
+        },
+        {
+          "link": "i-i-s-i-s-s7-пользователь-l",
+          "menuName": null,
+          "caption": "ПользовательL",
+          "title": "Пользователь",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Тип",
+  "name": "IISISS7ТипE",
+  "className": "ТипE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-i-s-s7-тип",
+      "modelProjection": "ТипE"
+    }
+  ]
+}

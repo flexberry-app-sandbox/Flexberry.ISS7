@@ -1,0 +1,89 @@
+﻿{
+  "name": "IISISS7РабочееМесто",
+  "modelName": "i-i-s-i-s-s7-рабочее-место",
+  "className": "РабочееМесто",
+  "nameSpace": "IIS.ISS7",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "инвНомре",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "место",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "оборудование",
+      "relatedTo": "i-i-s-i-s-s7-оборудование",
+      "inverse": "рабочееМесто"
+    }
+  ],
+  "projections": [
+    {
+      "name": "РабочееМестоE",
+      "modelName": "i-i-s-i-s-s7-рабочее-место",
+      "attrs": [
+        {
+          "name": "инвНомре",
+          "caption": "Инв номре",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "место",
+          "caption": "Место",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ОборудованиеE",
+          "caption": "Оборудование",
+          "name": "оборудование",
+          "relatedTo": "i-i-s-i-s-s7-оборудование",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "РабочееМестоL",
+      "modelName": "i-i-s-i-s-s7-рабочее-место",
+      "attrs": [
+        {
+          "name": "инвНомре",
+          "caption": "Инв номре",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "место",
+          "caption": "Место",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

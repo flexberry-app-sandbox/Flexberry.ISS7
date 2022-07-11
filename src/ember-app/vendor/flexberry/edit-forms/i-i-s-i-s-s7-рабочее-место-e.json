@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "пользователь",
+      "displayAttributeName": "фИО",
+      "required": true,
+      "relationName": "Оборудование.Пользователь",
+      "projection": "ПользовательL",
+      "detailModelName": "i-i-s-i-s-s7-оборудование"
+    },
+    {
+      "master": "тип",
+      "displayAttributeName": "название",
+      "required": true,
+      "relationName": "Оборудование.Тип",
+      "projection": "ТипL",
+      "detailModelName": "i-i-s-i-s-s7-оборудование"
+    }
+  ],
+  "external": false,
+  "caption": "Рабочее место",
+  "name": "IISISS7РабочееМестоE",
+  "className": "РабочееМестоE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-i-s-s7-рабочее-место",
+      "modelProjection": "РабочееМестоE"
+    }
+  ]
+}
