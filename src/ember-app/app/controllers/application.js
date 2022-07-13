@@ -28,19 +28,19 @@ export default Controller.extend({
             link: 'i-i-s-i-s-s7-рабочее-место-l',
             caption: i18n.t('forms.application.sitemap.i-s-s7.i-i-s-i-s-s7-рабочее-место-l.caption'),
             title: i18n.t('forms.application.sitemap.i-s-s7.i-i-s-i-s-s7-рабочее-место-l.title'),
-            icon: 'tags',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-i-s-s7-пользователь-l',
             caption: i18n.t('forms.application.sitemap.i-s-s7.i-i-s-i-s-s7-пользователь-l.caption'),
             title: i18n.t('forms.application.sitemap.i-s-s7.i-i-s-i-s-s7-пользователь-l.title'),
-            icon: 'chart line',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-i-s-s7-тип-l',
             caption: i18n.t('forms.application.sitemap.i-s-s7.i-i-s-i-s-s7-тип-l.caption'),
             title: i18n.t('forms.application.sitemap.i-s-s7.i-i-s-i-s-s7-тип-l.title'),
-            icon: 'paperclip',
+            icon: 'chart bar',
             children: null
           }]
         }, {
@@ -52,13 +52,13 @@ export default Controller.extend({
             link: 'i-i-s-i-s-s7-тип-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-i-s-s7-тип-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-i-s-s7-тип-l.title'),
-            icon: 'table',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-i-s-s7-пользователь-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-i-s-s7-пользователь-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-i-s-s7-пользователь-l.title'),
-            icon: 'briefcase',
+            icon: 'tasks',
             children: null
           }]
         }
